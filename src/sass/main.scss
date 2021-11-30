@@ -1,7 +1,14 @@
-/*
- * Главный файл стилей.
- * Все паршалы подключаются сюда.
- */
+////UTILS
+@import './utils/variables';
+////BASE
 
-// Стили для файла с примером HTML-фрагмента
-@import './example';
+@import './base/common.scss';
+@import './base/container.scss';
+@import './base/section-padding.scss';
+
+////LAYOUT
+@import './layout/header.scss';
+@import './layout/main-sec.scss';
+@import './layout/footer.scss';
+@import './layout/modal.scss';
+@import './layout/library-header.scss';
